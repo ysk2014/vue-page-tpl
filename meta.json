@@ -1,9 +1,14 @@
 {
     "prompts": [
         {
+            "name": "path",
+            "type": "input",
+            "message": "页面地址："
+        },
+        {
             "name": "name",
             "type": "input",
-            "message": "页面名称"
+            "message": "页面名称："
         }
     ]
 }

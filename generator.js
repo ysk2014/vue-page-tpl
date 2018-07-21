@@ -1,4 +1,4 @@
 module.exports = (api, meta, options) => {
-    api.render("./template");
+    api.render("./template", meta.path);
     
 }
