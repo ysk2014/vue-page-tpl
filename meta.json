@@ -9,6 +9,11 @@
             "name": "name",
             "type": "input",
             "message": "页面名称："
+        },
+        {
+            "name": "routePath",
+            "type": "input",
+            "message": "路由文件地址："
         }
     ]
 }
