@@ -13,7 +13,8 @@
         {
             "name": "routePath",
             "type": "input",
-            "message": "路由文件地址："
+            "message": "路由文件地址：",
+            "cache": true
         }
     ]
 }
