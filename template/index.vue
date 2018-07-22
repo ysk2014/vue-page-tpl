@@ -5,8 +5,17 @@
 </template>
 
 <script>
+    <% if (meta.module) {%>
+    import { mapState } from "vuex";
+    <%}%>
     export default {
-        
+        <% if (meta.module) {%>
+        computed: {
+            ...mapState("<%= meta.name%>", {
+                demo: (state) => state.demo
+            })
+        }
+        <%}%>
     }
 </script>
 

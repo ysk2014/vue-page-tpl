@@ -1,7 +1,7 @@
 
 const state = ()=> {
     return {
-        items: []
+        demo: []
     }
 };
 
@@ -13,7 +13,7 @@ const actions = {
 
 const mutations = {
     setState(state, params) {
-        state.items = params;
+        state.demo = params;
     }
 }
 

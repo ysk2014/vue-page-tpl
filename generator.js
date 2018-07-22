@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = (api, meta, options) => {
-    api.render("./template", meta.path);
+    api.render("./template", meta.path+"/"+meta.name);
     
     if (meta.routePath) {
         api.injectVueRoutes(meta.routePath, api.renderToString(path.join(__dirname, "./route.js"), meta));
