@@ -1,5 +1,5 @@
 
-import <%= name %> from "<%= path%>/<%= name%>/module.js";
+import <%= name %> from "@/container/<%= name%>/module.js";
 
 const modules = {
     <%= name%>
