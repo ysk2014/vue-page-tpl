@@ -8,6 +8,6 @@ module.exports = (api, meta, options) => {
     }
 
     if (meta.storePath) {
-        api.injectVueRoutes(meta.storePath, api.renderToString(path.join(__dirname, "./store.js"), meta));
+        api.injectVueStore(meta.storePath, api.renderToString(path.join(__dirname, "./store.js"), meta));
     }
 }

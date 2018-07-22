@@ -19,7 +19,7 @@ module.exports = {
         },
         {
             name: "module",
-            type: "comfrim",
+            type: "confirm",
             message: "是否添加module.js文件：",
             cache: true
         },
