@@ -6,4 +6,8 @@ module.exports = (api, meta, options) => {
     if (meta.routePath) {
         api.injectVueRoutes(meta.routePath, api.renderToString(path.join(__dirname, "./route.js"), meta));
     }
+
+    if (meta.storePath) {
+        api.injectVueRoutes(meta.storePath, api.renderToString(path.join(__dirname, "./store.js"), meta));
+    }
 }
