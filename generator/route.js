@@ -1,6 +1,6 @@
 const routes = [
     {
-        path: "/<%= name %>",
-        component: () => import("@/container/<%= name%>/index.vue")
+        path: '/<%= name %>',
+        component: () => import('@/<%= pagePath%>/<%= name%>/index.vue')
     }
-]
+];
